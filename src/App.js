@@ -5,6 +5,8 @@ import PassingProp from './components/PassingProps'
 import OptionalProps from "./components/OptionalProps";
 import SpradingProps from './components/SpradingProps'
 import ChildProps from "./components/ChildProps";
+//import ValidProps from './components/PropValidation'
+import Product from './components/ProductCard'
 function App() {
   let age = 20
   let anydata = 'Azim'
@@ -39,15 +41,22 @@ function App() {
       <SpradingProps {...x} /> */}
 
 
-      <ChildProps>
+      {/* <ChildProps>
         <span>
           I am a Child Props
         </span>
-      </ChildProps>
+      </ChildProps> */}
 
-
-
-
+      {/* <ValidProps /> */}
+      <Product
+      // n1='AirMax'
+      // n2="Wintar Collection"
+      // n3="No Desc"
+      // p1={200}
+      // p3={300}
+      // size={[1, 2, 3, 4, 5, 6]}
+      // color={['yellow', 'black', 'blue']}
+      />
     </>
   );
 }
