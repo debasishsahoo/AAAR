@@ -19,8 +19,6 @@ const UseStateHook = () => {
             <br />
             <button onClick={UpdateStudent}>Update Female</button>
             <button onClick={UpdateStudent}>Update Male</button>
-
-
         </div>
     );
 
